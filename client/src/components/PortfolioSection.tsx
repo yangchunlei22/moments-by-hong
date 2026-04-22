@@ -120,9 +120,9 @@ const categories: Category[] = [
       { src: `https://imgur.com/0TBHhAt.jpeg`, alt: "aiden in graduation gown, studio portrait" },
       { src: `https://imgur.com/bdSifxG.jpeg`, alt: "aiden in graduation gown, studio portrait" },
       { src: `https://imgur.com/LgUzvNf.jpeg`, alt: "aiden's first day in kinder" },
-      { src: `.jpeg`, alt: "jasper's first day in school" },
-      { src: `.jpeg`, alt: "jasper's first day in school" },
-      { src: `.jpeg`, alt: "jasper's first day in school" },
+      { src: `https://imgur.com/p3xy6UB.jpeg`, alt: "dongdong graduation portrait" },
+      { src: `https://imgur.com/hfmHRGV.jpeg`, alt: "dongdong graduation portrait" },
+      { src: `https://imgur.com/ZxJy1Dw.jpeg`, alt: "dongdong graduation portrait" },
     ],
   },
   {
