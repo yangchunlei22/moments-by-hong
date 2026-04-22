@@ -21,7 +21,7 @@ const categories: Category[] = [
     label: "All",
     images: [
       { src: `https://i.imgur.com/zV8PT0b.jpeg`, alt: "Baby in red Chinese outfit with flower crown" },
-      { src: `${CDN}bHxhQcyjAqVvZcWE.jpg`, alt: "Two boys picking mulberries in orchard" },
+      { src: `https://imgur.com/4UP6EA9, alt: "Two boys picking mulberries in orchard" },
       { src: `${CDN}YgUqqsWBXoXsMMdz.jpg`, alt: "Family of three indoor lifestyle session" },
       { src: `${CDN}tilbpqmIQzVIEcMP.jpg`, alt: "Child in graduation gown studio portrait" },
       { src: `${CDN}uyEwTNwacnfOSvif.jpg`, alt: "Pianist performing at Steinway & Sons concert" },
