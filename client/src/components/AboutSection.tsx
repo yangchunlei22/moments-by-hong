@@ -55,7 +55,7 @@ export default function AboutSection() {
           <div className="order-1 md:order-2 relative">
             <div className="relative md:translate-y-6">
               <img
-                src="https://imgur.com/a/WV2lk7u"
+                src="https://i.imgur.com/zV8PT0b.jpeg"
                 alt="Dummy about me photo - Justin"
                 className="w-full object-cover object-center"
                 style={{ maxHeight: "580px", height: "580px" }}
