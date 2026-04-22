@@ -2,7 +2,7 @@
  * PortfolioSection — Moments by Hong
  * Style: Category tabs (Lato, small caps), masonry-style grid
  * Hover: gentle scale + brightness lift
- * Uses dummy images per category; will be replaced with real portfolio photos
+ * Real portfolio photos from Hong Wang's sessions
  */
 
 import { useState } from "react";
@@ -10,64 +10,86 @@ import { useState } from "react";
 type Category = {
   id: string;
   label: string;
-  images: { src: string; alt: string; span?: "tall" | "wide" | "normal" }[];
+  images: { src: string; alt: string }[];
 };
+
+// Real photos from Hong Wang's portfolio sessions
+const S = "/manus-storage/";
 
 const categories: Category[] = [
   {
     id: "all",
     label: "All",
     images: [
-      { src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663336746728/Lhkc6eRcFy3KePGXkq6CWZ/portfolio-studio-portrait-iBd4fb5Lz8pg6FTo7KUUi8.webp", alt: "Studio portrait of a young child", span: "tall" },
-      { src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663336746728/Lhkc6eRcFy3KePGXkq6CWZ/portfolio-lifestyle-eiSk6Cc54kVsoikppX3vEk.webp", alt: "Family lifestyle session at the beach", span: "normal" },
-      { src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663336746728/Lhkc6eRcFy3KePGXkq6CWZ/portfolio-family-byc2PTsAtFa9PuJ5ZHX2xj.webp", alt: "Family session in the park", span: "tall" },
-      { src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663336746728/Lhkc6eRcFy3KePGXkq6CWZ/portfolio-headshot-AWwareQN8dwN9VDMyX8A7V.png", alt: "Professional headshot", span: "normal" },
-      { src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663336746728/Lhkc6eRcFy3KePGXkq6CWZ/portfolio-events-C3hSicR52WhUHMncsMDX5y.webp", alt: "Birthday party event photography", span: "tall" },
-      { src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663336746728/Lhkc6eRcFy3KePGXkq6CWZ/hero-main-8CkPp7NHpMkXsHPR6HCiyM.webp", alt: "Mother and newborn", span: "wide" },
+      { src: `${S}studio-1_32561a1e.jpg`, alt: "Baby in red Chinese outfit with flower crown" },
+      { src: `${S}lifestyle-1_ae04eb47.jpg`, alt: "Two boys picking mulberries in orchard" },
+      { src: `${S}family-1_57079191.jpg`, alt: "Family of three indoor lifestyle session" },
+      { src: `${S}headshot-1_09dfe07e.jpg`, alt: "Child in graduation gown studio portrait" },
+      { src: `${S}events-1_8d0fc969.jpg`, alt: "Birthday party outdoor safari theme" },
+      { src: `${S}studio-3_0fba366a.jpg`, alt: "Baby in red dress studio portrait" },
+      { src: `${S}lifestyle-4_21db4bab.jpg`, alt: "Toddler walking with balloon in park" },
+      { src: `${S}events-6_7a07dd74.jpg`, alt: "Wedding couple at City Hall entrance" },
+      { src: `${S}studio-6_e43b40da.jpg`, alt: "Harry Potter themed baby studio portrait" },
+      { src: `${S}family-4_fe8eec4f.jpg`, alt: "Family indoor lifestyle session" },
     ],
   },
   {
     id: "studio",
     label: "Studio Portraits",
     images: [
-      { src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663336746728/Lhkc6eRcFy3KePGXkq6CWZ/portfolio-studio-portrait-iBd4fb5Lz8pg6FTo7KUUi8.webp", alt: "Studio portrait of a young child", span: "tall" },
-      { src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663336746728/Lhkc6eRcFy3KePGXkq6CWZ/hero-main-8CkPp7NHpMkXsHPR6HCiyM.webp", alt: "Mother and newborn studio session", span: "wide" },
-      { src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663336746728/Lhkc6eRcFy3KePGXkq6CWZ/portfolio-headshot-AWwareQN8dwN9VDMyX8A7V.png", alt: "Professional studio portrait", span: "normal" },
+      { src: `${S}studio-1_32561a1e.jpg`, alt: "Baby in red Chinese outfit with flower crown, cream background" },
+      { src: `${S}studio-2_424c66cb.jpg`, alt: "Baby with red bow lying on macrame, pink background" },
+      { src: `${S}studio-3_0fba366a.jpg`, alt: "Baby in red dress on grey background" },
+      { src: `${S}studio-4_7f62a23c.jpg`, alt: "Toddler with wooden letter toys on grey background" },
+      { src: `${S}studio-5_f81de841.jpg`, alt: "Baby in red in rattan basket, Zhuazhou ceremony" },
+      { src: `${S}studio-6_e43b40da.jpg`, alt: "Harry Potter themed baby studio portrait" },
+      { src: `${S}studio-7_2595ce09.jpg`, alt: "Zhuazhou ceremony with Chinese cultural decor" },
     ],
   },
   {
     id: "lifestyle",
     label: "Lifestyle",
     images: [
-      { src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663336746728/Lhkc6eRcFy3KePGXkq6CWZ/portfolio-lifestyle-eiSk6Cc54kVsoikppX3vEk.webp", alt: "Family lifestyle session at the beach", span: "tall" },
-      { src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663336746728/Lhkc6eRcFy3KePGXkq6CWZ/portfolio-family-byc2PTsAtFa9PuJ5ZHX2xj.webp", alt: "Outdoor lifestyle family session", span: "normal" },
-      { src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663336746728/Lhkc6eRcFy3KePGXkq6CWZ/hero-main-8CkPp7NHpMkXsHPR6HCiyM.webp", alt: "Indoor lifestyle newborn session", span: "wide" },
+      { src: `${S}lifestyle-1_ae04eb47.jpg`, alt: "Two boys picking mulberries in orchard" },
+      { src: `${S}lifestyle-2_ec462ab0.jpg`, alt: "Toddler in yellow boots exploring a field" },
+      { src: `${S}lifestyle-3_85e25425.jpg`, alt: "Children outdoor lifestyle session at orchard" },
+      { src: `${S}lifestyle-4_21db4bab.jpg`, alt: "Toddler walking with balloon on park path" },
+      { src: `${S}lifestyle-5_5f4d8c4d.jpg`, alt: "Child outdoor lifestyle session" },
+      { src: `${S}lifestyle-6_080a5d28.jpg`, alt: "Summer outdoor lifestyle session" },
     ],
   },
   {
     id: "family",
     label: "Family Sessions",
     images: [
-      { src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663336746728/Lhkc6eRcFy3KePGXkq6CWZ/portfolio-family-byc2PTsAtFa9PuJ5ZHX2xj.webp", alt: "Family of four in the park", span: "tall" },
-      { src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663336746728/Lhkc6eRcFy3KePGXkq6CWZ/portfolio-lifestyle-eiSk6Cc54kVsoikppX3vEk.webp", alt: "Family beach session", span: "normal" },
-      { src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663336746728/Lhkc6eRcFy3KePGXkq6CWZ/portfolio-studio-portrait-iBd4fb5Lz8pg6FTo7KUUi8.webp", alt: "Child studio portrait", span: "tall" },
+      { src: `${S}family-1_57079191.jpg`, alt: "Family of three indoor lifestyle, warm natural light" },
+      { src: `${S}family-2_48badbdc.jpg`, alt: "Family indoor session with baby" },
+      { src: `${S}family-3_84043526.jpg`, alt: "Family lifestyle session at home" },
+      { src: `${S}family-4_fe8eec4f.jpg`, alt: "Family indoor portrait session" },
+      { src: `${S}family-5_153073c9.jpg`, alt: "Family candid moment at home" },
     ],
   },
   {
     id: "headshot",
     label: "Headshot & Branding",
     images: [
-      { src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663336746728/Lhkc6eRcFy3KePGXkq6CWZ/portfolio-headshot-AWwareQN8dwN9VDMyX8A7V.png", alt: "Professional headshot", span: "tall" },
-      { src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663336746728/Lhkc6eRcFy3KePGXkq6CWZ/portfolio-studio-portrait-iBd4fb5Lz8pg6FTo7KUUi8.webp", alt: "Studio branding portrait", span: "normal" },
+      { src: `${S}headshot-1_09dfe07e.jpg`, alt: "Child in graduation gown, studio portrait" },
+      { src: `${S}headshot-2_4279629a.jpg`, alt: "Graduation portrait session" },
+      { src: `${S}headshot-3_a0fb4053.jpg`, alt: "Studio portrait for graduation milestone" },
+      { src: `${S}headshot-4_849a65ec.jpg`, alt: "Professional studio portrait session" },
     ],
   },
   {
     id: "events",
     label: "Events",
     images: [
-      { src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663336746728/Lhkc6eRcFy3KePGXkq6CWZ/portfolio-events-C3hSicR52WhUHMncsMDX5y.webp", alt: "Birthday party event", span: "tall" },
-      { src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663336746728/Lhkc6eRcFy3KePGXkq6CWZ/portfolio-family-byc2PTsAtFa9PuJ5ZHX2xj.webp", alt: "Family gathering event", span: "normal" },
-      { src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663336746728/Lhkc6eRcFy3KePGXkq6CWZ/portfolio-lifestyle-eiSk6Cc54kVsoikppX3vEk.webp", alt: "Outdoor event photography", span: "wide" },
+      { src: `${S}events-1_8d0fc969.jpg`, alt: "Birthday party outdoor, safari theme" },
+      { src: `${S}events-2_c778a5d7.jpg`, alt: "Birthday party outdoor event photography" },
+      { src: `${S}events-3_04add185.jpg`, alt: "Outdoor birthday celebration" },
+      { src: `${S}events-4_460b0fc9.jpg`, alt: "Couple walking at City Hall, marriage registration" },
+      { src: `${S}events-5_d23a3e1b.jpg`, alt: "Marriage registration follow-along photography" },
+      { src: `${S}events-6_7a07dd74.jpg`, alt: "Wedding couple kissing at San Francisco City Hall" },
+      { src: `${S}events-7_616ce9e0.jpg`, alt: "Wedding portrait at City Hall" },
     ],
   },
 ];
@@ -126,11 +148,6 @@ export default function PortfolioSection() {
             </div>
           ))}
         </div>
-
-        {/* Placeholder note */}
-        <p className="mt-8 font-['Lato'] text-xs text-[#A89080] text-center tracking-wide">
-          * Placeholder images shown — real portfolio photos will be added soon.
-        </p>
       </div>
 
       {/* Lightbox */}
