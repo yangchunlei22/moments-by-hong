@@ -59,7 +59,7 @@ const categories: Category[] = [
       { src: `https://imgur.com/LyByiAO, alt: "Studio portrait — 周岁 milestone" },
       { src: `https://imgur.com/rCJTE1G, alt: "Studio portrait — baby with props" },
       { src: `https://imgur.com/fXia2NH, alt: "Studio portrait — milestone session" },
-      { src: `https://imgur.com/tH1DKMA, alt: "Zhuazhou ceremony — outdoor green backdrop" },
+      { src: `, alt: "Zhuazhou ceremony — outdoor green backdrop" },
       { src: ``, alt: "Zhuazhou ceremony — baby with traditional items" },
       { src: `${CDN}yROqFZTFUTKCdDiT.jpg`, alt: "Zhuazhou ceremony — family celebration" },
       { src: `${CDN}akibvkeeUZGYtEry.jpg`, alt: "Zhuazhou ceremony — baby reaching for items" },
