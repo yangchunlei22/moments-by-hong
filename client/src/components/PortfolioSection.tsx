@@ -41,7 +41,7 @@ const categories: Category[] = [
     id: "studio",
     label: "Studio Portraits",
     images: [
-      { src: `${CDN}YwBteRJRfQFyeguD.jpg`, alt: "Baby in red Chinese outfit with flower crown, cream background" },
+      { src: `https://imgur.com/hJURxKb, alt: "Baby in red Chinese outfit with flower crown, cream background" },
       { src: `${CDN}BIYNGivfHztyomqX.jpg`, alt: "Baby with red bow lying on macrame, pink background" },
       { src: `${CDN}inzvZXFlvNSVyccA.jpg`, alt: "Baby in red dress on grey background" },
       { src: `${CDN}pfajhzalreYVZVdP.jpg`, alt: "Toddler with wooden letter toys on grey background" },
