@@ -10,6 +10,7 @@ import PortfolioSection from "@/components/PortfolioSection";
 import AboutSection from "@/components/AboutSection";
 import PricingSection from "@/components/PricingSection";
 import ContactSection from "@/components/ContactSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
       <PortfolioSection />
       <AboutSection />
       <PricingSection />
+      <TestimonialsSection />
       <ContactSection />
       <Footer />
     </div>
