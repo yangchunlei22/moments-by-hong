@@ -90,9 +90,9 @@ const categories: Category[] = [
     label: "Family Sessions",
     images: [
       { src: `https://imgur.com/VeS1AzC.jpeg`, alt: "Family of three indoor lifestyle, warm natural light" },
-      { src: `https://imgur.com/gDkc862.jpeg`, alt: "Family indoor session with baby" },
-      { src: `https://imgur.com/PBzyk7e.jpeg`, alt: "Family lifestyle session at home" },
-      { src: `https://imgur.com/Rw5Xpxy.jpeg`, alt: "Family indoor portrait session" },
+      { src: `https://imgur.com/gDkc862.jpeg`, alt: "Family of three indoor lifestyle, warm natural light" },
+      { src: `https://imgur.com/PBzyk7e.jpeg`, alt: "Family of three indoor lifestyle, warm natural light" },
+      { src: `https://imgur.com/Rw5Xpxy.jpeg`, alt: "Family of three indoor lifestyle, warm natural light" },
       { src: `.jpg`, alt: "Family candid moment at home" },
       { src: `${CDN}ojCtWnTnEdpxtJbW.jpg`, alt: "Family outdoor session — toddler birthday" },
       { src: `${CDN}tJzaGdhAXnDxvdph.jpg`, alt: "Family outdoor session — candid moment" },
