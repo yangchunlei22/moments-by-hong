@@ -42,9 +42,9 @@ const categories: Category[] = [
     label: "Studio Portraits",
     images: [
       { src: `https://imgur.com/hJURxKb, alt: "Baby in red Chinese outfit with flower crown, cream background" },
-      { src: `${CDN}BIYNGivfHztyomqX.jpg`, alt: "Baby with red bow lying on macrame, pink background" },
-      { src: `${CDN}inzvZXFlvNSVyccA.jpg`, alt: "Baby in red dress on grey background" },
-      { src: `${CDN}pfajhzalreYVZVdP.jpg`, alt: "Toddler with wooden letter toys on grey background" },
+      { src: `https://imgur.com/4UP6EA9, alt: "Baby with red bow lying on macrame, pink background" },
+      { src: `https://imgur.com/jZK44r1, alt: "Baby in red dress on grey background" },
+      { src: `https://imgur.com/RoGT5ao, alt: "Toddler with wooden letter toys on grey background" },
       { src: `${CDN}ZmaajQfsJeoqJgbY.jpg`, alt: "Baby in red in rattan basket, Zhuazhou ceremony" },
       { src: `${CDN}BftUatgsdHXhsasM.jpg`, alt: "Harry Potter themed baby studio portrait" },
       { src: `${CDN}rWkSbUUTQdSEdepL.jpg`, alt: "Zhuazhou ceremony with Chinese cultural decor" },
