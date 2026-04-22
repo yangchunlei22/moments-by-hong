@@ -20,7 +20,7 @@ const categories: Category[] = [
     id: "all",
     label: "All",
     images: [
-      { src: `${CDN}YwBteRJRfQFyeguD.jpg`, alt: "Baby in red Chinese outfit with flower crown" },
+      { src: `https://i.imgur.com/zV8PT0b.jpeg`, alt: "Baby in red Chinese outfit with flower crown" },
       { src: `${CDN}bHxhQcyjAqVvZcWE.jpg`, alt: "Two boys picking mulberries in orchard" },
       { src: `${CDN}YgUqqsWBXoXsMMdz.jpg`, alt: "Family of three indoor lifestyle session" },
       { src: `${CDN}tilbpqmIQzVIEcMP.jpg`, alt: "Child in graduation gown studio portrait" },
