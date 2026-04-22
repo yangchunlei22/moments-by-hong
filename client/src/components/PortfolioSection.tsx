@@ -107,6 +107,13 @@ const categories: Category[] = [
       { src: `${CDN}BcwDFAjxkbeLoOXs.jpg`, alt: "Graduation portrait session" },
       { src: `${CDN}poFMVzGHdkdCABGR.jpg`, alt: "Studio portrait for graduation milestone" },
       { src: `${CDN}GwTZAieClDsHoaPS.jpg`, alt: "Professional studio portrait session" },
+      { src: `${CDN}GwTZAieClDsHoaPS.jpg`, alt: "Professional studio portrait session" },
+      { src: `${CDN}GwTZAieClDsHoaPS.jpg`, alt: "Professional studio portrait session" },
+      { src: `${CDN}GwTZAieClDsHoaPS.jpg`, alt: "Professional studio portrait session" },
+      { src: `${CDN}GwTZAieClDsHoaPS.jpg`, alt: "Professional studio portrait session" },
+      { src: `${CDN}GwTZAieClDsHoaPS.jpg`, alt: "Professional studio portrait session" },
+      { src: `${CDN}GwTZAieClDsHoaPS.jpg`, alt: "Professional studio portrait session" },
+      { src: `${CDN}GwTZAieClDsHoaPS.jpg`, alt: "Professional studio portrait session" },
     ],
   },
   {
