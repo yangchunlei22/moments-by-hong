@@ -114,6 +114,12 @@ const categories: Category[] = [
       { src: `https://imgur.com/4bOEMXf.jpeg`, alt: "ian graduation portrait" },
       { src: `https://imgur.com/ms6uDVL.jpeg`, alt: "dongdong graduation portrait" },
       { src: `https://imgur.com/d3gzwuf.jpeg`, alt: "jasper's first day in school" },
+      { src: `https://imgur.com/d3gzwuf.jpeg`, alt: "jasper's first day in school" },
+      { src: `https://imgur.com/d3gzwuf.jpeg`, alt: "jasper's first day in school" },
+      { src: `https://imgur.com/d3gzwuf.jpeg`, alt: "jasper's first day in school" },
+      { src: `https://imgur.com/d3gzwuf.jpeg`, alt: "jasper's first day in school" },
+      { src: `https://imgur.com/d3gzwuf.jpeg`, alt: "jasper's first day in school" },
+      { src: `https://imgur.com/d3gzwuf.jpeg`, alt: "jasper's first day in school" },
     ],
   },
   {
