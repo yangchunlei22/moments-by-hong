@@ -14,8 +14,8 @@ export default function HeroSection() {
     <section className="relative w-full h-screen min-h-[600px] max-h-[900px] overflow-hidden">
       {/* Background image */}
       <img
-        src="https://d2xsxph8kpxj0f.cloudfront.net/310519663336746728/Lhkc6eRcFy3KePGXkq6CWZ/hero-main-8CkPp7NHpMkXsHPR6HCiyM.webp"
-        alt="A mother cradling her newborn in warm golden light"
+        src="/manus-storage/lifestyle-1_9a65d2a3.jpg"
+        alt="Hong's two boys picking mulberries in an orchard on a sunny day"
         className="absolute inset-0 w-full h-full object-cover object-center"
       />
 
