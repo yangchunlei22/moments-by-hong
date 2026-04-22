@@ -55,10 +55,10 @@ export default function AboutSection() {
           <div className="order-1 md:order-2 relative">
             <div className="relative md:translate-y-6">
               <img
-                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663336746728/Lhkc6eRcFy3KePGXkq6CWZ/portfolio-family-byc2PTsAtFa9PuJ5ZHX2xj.webp"
-                alt="A warm family session in the park"
-                className="w-full h-auto object-cover"
-                style={{ maxHeight: "580px", objectPosition: "center top" }}
+                src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663336746728/YgUqqsWBXoXsMMdz.jpg"
+                alt="A warm family lifestyle session"
+                className="w-full object-cover object-center"
+                style={{ maxHeight: "580px", height: "580px" }}
               />
               {/* Decorative warm border offset */}
               <div className="absolute -bottom-4 -left-4 w-24 h-24 border-2 border-[#C9A99A]/40 -z-10 hidden md:block" />

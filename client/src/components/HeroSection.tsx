@@ -16,7 +16,8 @@ export default function HeroSection() {
       <img
         src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663336746728/bHxhQcyjAqVvZcWE.jpg"
         alt="Hong's two boys picking mulberries in an orchard on a sunny day"
-        className="absolute inset-0 w-full h-full object-cover object-center"
+        className="absolute inset-0 w-full h-full object-cover"
+        style={{ objectPosition: '65% center' }}
       />
 
       {/* Warm gradient overlay — bottom fade for text legibility */}
