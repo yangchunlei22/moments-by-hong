@@ -55,8 +55,8 @@ export default function AboutSection() {
           <div className="order-1 md:order-2 relative">
             <div className="relative md:translate-y-6">
               <img
-                src="https://www.dropbox.com/scl/fi/bnu4m2m60bjz3i54wiz3h/IMG_5809.JPG?rlkey=10qhhzb33up7cbm3o1omtc772&st=ns9bkzqe&dl=1"
-                alt="A warm family lifestyle session"
+                src="https://imgur.com/a/WV2lk7u"
+                alt="Dummy about me photo - Justin"
                 className="w-full object-cover object-center"
                 style={{ maxHeight: "580px", height: "580px" }}
               />
