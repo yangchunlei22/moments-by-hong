@@ -113,7 +113,7 @@ const categories: Category[] = [
       { src: `https://imgur.com/NYz8701.jpeg`, alt: "jasper in graduation gown, studio portrait" },
       { src: `https://imgur.com/4bOEMXf.jpeg`, alt: "ian graduation portrait" },
       { src: `https://imgur.com/ms6uDVL.jpeg`, alt: "dongdong graduation portrait" },
-      { src: `${CDN}GwTZAieClDsHoaPS.jpg`, alt: "Professional studio portrait session" },
+      { src: `https://imgur.com/d3gzwuf.jpeg`, alt: "jasper's first day in school" },
     ],
   },
   {
