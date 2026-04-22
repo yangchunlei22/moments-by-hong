@@ -14,8 +14,8 @@ export default function HeroSection() {
     <section className="relative w-full h-screen min-h-[600px] max-h-[900px] overflow-hidden">
       {/* Background image */}
       <img
-        src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663336746728/bHxhQcyjAqVvZcWE.jpg"
-        alt="Hong's two boys picking mulberries in an orchard on a sunny day"
+        src="https://imgur.com/MoGfsdy.jpeg"
+        alt="jasper's face painting on birthday party"
         className="absolute inset-0 w-full h-full object-cover"
         style={{ objectPosition: '65% center' }}
       />
