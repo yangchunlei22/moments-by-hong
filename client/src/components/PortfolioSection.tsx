@@ -155,6 +155,13 @@ const categories: Category[] = [
       { src: `https://imgur.com/p3xy6UB.jpeg`, alt: "dongdong graduation portrait" },
       { src: `https://imgur.com/hfmHRGV.jpeg`, alt: "dongdong graduation portrait" },
       { src: `https://imgur.com/ZxJy1Dw.jpeg`, alt: "dongdong graduation portrait" },
+      { src: `https://imgur.com/7AWf1VI.jpeg`, alt: " shulin portrait" },
+      { src: `https://imgur.com/bW35VNk.jpeg`, alt: " shulin portrait" },
+      { src: `https://imgur.com/iZSDjDc.jpeg`, alt: " shulin portrait" },
+      { src: `..jpeg`, alt: " portrait" },
+      { src: `..jpeg`, alt: " portrait" },
+      { src: `..jpeg`, alt: " portrait" },
+      { src: `..jpeg`, alt: " portrait" },
     ],
   },
   {
