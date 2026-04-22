@@ -14,7 +14,7 @@ export default function HeroSection() {
     <section className="relative w-full h-screen min-h-[600px] max-h-[900px] overflow-hidden">
       {/* Background image */}
       <img
-        src="/manus-storage/lifestyle-1_9a65d2a3.jpg"
+        src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663336746728/bHxhQcyjAqVvZcWE.jpg"
         alt="Hong's two boys picking mulberries in an orchard on a sunny day"
         className="absolute inset-0 w-full h-full object-cover object-center"
       />
