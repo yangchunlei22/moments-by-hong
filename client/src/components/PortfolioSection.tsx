@@ -176,13 +176,6 @@ const categories: Category[] = [
     ],
   },
   {
-    id: "events",
-    label: "Events",
-    images: [
-      { src: `${CDN}uyEwTNwacnfOSvif.jpeg`, alt: "Pianist performing at Steinway & Sons concert" },
-    ],
-  },
-  {
     id: "tradition",
     label: "Heritage & Tradition",
     images: [
