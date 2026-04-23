@@ -235,7 +235,12 @@ const categories: Category[] = [
     id: "stage",
     label: "Set & Stage",
     images: [
-      { src: `${CDN}uyEwTNwacnfOSvif.jpg`, alt: "Pianist performing at Steinway & Sons concert" },
+      { src: `https://imgur.com/tnkFoCN.jpeg`, alt: "zaozao watermelon in summer" },
+      { src: `https://imgur.com/tnkFoCN.jpeg`, alt: "zaozao watermelon in summer" },
+      { src: `https://imgur.com/tnkFoCN.jpeg`, alt: "zaozao watermelon in summer" },
+      { src: `https://imgur.com/tnkFoCN.jpeg`, alt: "zaozao watermelon in summer" },
+      { src: `https://imgur.com/tnkFoCN.jpeg`, alt: "zaozao watermelon in summer" },
+      { src: `..jpeg`, alt: " " },
     ],
   },
   {
