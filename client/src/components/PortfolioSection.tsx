@@ -25,6 +25,7 @@ const categories: Category[] = [
       { src: `https://imgur.com/qeuVM6j.jpeg`, alt: "justin 2y" },
       { src: `https://imgur.com/otxVM9j.jpeg`, alt: "twins harry potter" },
       { src: `https://imgur.com/FPApFSm.jpeg`, alt: "aria zhuazhou red" },
+      { src: `https://imgur.com/uORvmBd.jpeg`, alt: "aria tradition" },
       { src: `https://imgur.com/mlKL0v9.jpeg`, alt: "chongchong cook" },
       { src: `https://imgur.com/KFgFCSF.jpeg`, alt: "jasper graduation" },
       { src: `https://imgur.com/1nR0RL0.jpeg`, alt: "aria pearl girl" },
