@@ -56,7 +56,6 @@ const categories: Category[] = [
       { src: `https://imgur.com/tBR1WTC.jpeg`, alt: "Baby studio portrait with floral props" },
       { src: `https://imgur.com/jfC3ROA.jpeg`, alt: "Baby milestone portrait session" },
       { src: `https://imgur.com/gLTWTsc.jpeg`, alt: "Baby studio portrait, natural light" },
-      { src: `https://imgur.com/aFbjE2D.jpeg`, alt: "Baby 1st birthday studio portrait" },
       { src: `https://imgur.com/LyByiAO.jpeg`, alt: "Studio portrait — 周岁 milestone" },
       { src: `https://imgur.com/rCJTE1G.jpeg`, alt: "Studio portrait — baby with props" },
       { src: `https://imgur.com/GnSrFrK.jpeg`, alt: "Zhuazhou ceremony — outdoor green backdrop" },
