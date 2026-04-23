@@ -236,11 +236,11 @@ const categories: Category[] = [
     label: "Set & Stage",
     images: [
       { src: `https://imgur.com/tnkFoCN.jpeg`, alt: "zaozao watermelon in summer" },
-      { src: `https://imgur.com/tnkFoCN.jpeg`, alt: "zaozao watermelon in summer" },
-      { src: `https://imgur.com/tnkFoCN.jpeg`, alt: "zaozao watermelon in summer" },
-      { src: `https://imgur.com/tnkFoCN.jpeg`, alt: "zaozao watermelon in summer" },
-      { src: `https://imgur.com/tnkFoCN.jpeg`, alt: "zaozao watermelon in summer" },
-      { src: `..jpeg`, alt: " " },
+      { src: `https://imgur.com/jmoRDU2.jpeg`, alt: "zaozao watermelon in summer" },
+      { src: `https://imgur.com/Ym5KwAB.jpeg`, alt: "zaozao watermelon in summer" },
+      { src: `https://imgur.com/6Ljqa3E.jpeg`, alt: "harry potter" },
+      { src: `https://imgur.com/nxyK0un.jpeg`, alt: "harry potter" },
+      { src: `https://imgur.com/gzxNUNh.jpeg`, alt: "harry potter" },
     ],
   },
   {
