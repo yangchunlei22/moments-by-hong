@@ -113,7 +113,7 @@ const categories: Category[] = [
     ],
   },
   {
-    id: "weddings",
+    id: "wedding",
     label: "Pre-wedding Photo",
     images: [
       { src: `https://imgur.com/C2w25I5.jpeg`, alt: "prewedding at sf cityhall" },
@@ -301,7 +301,6 @@ const categories: Category[] = [
       { src: `https://imgur.com/TKSLbu8.jpeg`, alt: "d" },
       { src: `https://imgur.com/DCdnpR9.jpeg`, alt: "d" },
       { src: `https://imgur.com/LgVoXTy.jpeg`, alt: "d" },
-      { src: `https://imgur.com/0q5shye.jpeg`, alt: "d" },
       { src: `https://imgur.com/fe8Ov2n.jpeg`, alt: "yishan bparty" },
       { src: `https://imgur.com/JunuCtx.jpeg`, alt: "y" },
       { src: `https://imgur.com/uj916QG.jpeg`, alt: "y" }, 
