@@ -36,6 +36,7 @@ const categories: Category[] = [
       { src: `https://imgur.com/7fz4TRV.jpeg`, alt: "1year" },
       { src: `https://imgur.com/5Za5WHd.jpeg`, alt: "tiger hat" },
       { src: `https://imgur.com/6s46AIl.jpeg`, alt: "penny zhuazhou with green background" },
+      { src: `https://imgur.com/SJvIh1B.jpeg`, alt: "harry potter" },
     ],
   },
   {
