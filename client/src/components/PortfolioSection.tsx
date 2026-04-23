@@ -114,7 +114,7 @@ const categories: Category[] = [
   },
   {
     id: "wedding",
-    label: "Pre-wedding Photo",
+    label: "Ever After",
     images: [
       { src: `https://imgur.com/C2w25I5.jpeg`, alt: "prewedding at sf cityhall" },
       { src: `https://imgur.com/5XaeGGs.jpeg`, alt: "p" },
