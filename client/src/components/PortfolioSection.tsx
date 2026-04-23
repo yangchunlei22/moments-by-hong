@@ -110,11 +110,6 @@ const categories: Category[] = [
       { src: `https://imgur.com/a9pRudf.jpeg`, alt: "justin 2y birthday picture onlocation" },
       { src: `https://imgur.com/oyX7DMf.jpeg`, alt: "justin 2y birthday picture onlocation" },
       { src: `https://imgur.com/PAOpAcG.jpeg`, alt: "justin 2y birthday picture onlocation" },
-      { src: `https://imgur.com/WqteXdi.jpeg`, alt: "dundun 2y birthday picture onlocation" },
-      { src: `https://imgur.com/ZY3WiNY.jpeg`, alt: "dundun 2y birthday picture onlocation" },
-      { src: `https://imgur.com/yU9peus.jpeg`, alt: "dundun 2y birthday picture onlocation" },
-      { src: `https://imgur.com/prjFdXa.jpeg`, alt: "dundun 2y birthday picture onlocation" },
-      { src: `https://imgur.com/yx26mRJ.jpeg`, alt: "dundun 2y birthday picture onlocation" },
     ],
   },
   {
