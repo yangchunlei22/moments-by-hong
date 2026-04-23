@@ -210,6 +210,41 @@ const categories: Category[] = [
       { src: `${CDN}GnjuLjVJIIoHUmXv.jpg`, alt: "Wedding portrait at City Hall" },
     ],
   },
+  {
+    id: "tradition",
+    label: "Heritage & Tradition",
+    images: [
+      { src: `${CDN}uyEwTNwacnfOSvif.jpg`, alt: "Pianist performing at Steinway & Sons concert" },
+    ],
+  },
+  {
+    id: "indoor",
+    label: "At Home",
+    images: [
+      { src: `${CDN}uyEwTNwacnfOSvif.jpg`, alt: "Pianist performing at Steinway & Sons concert" },
+    ],
+  },
+  {
+    id: "outdoor",
+    label: "Into the Wild",
+    images: [
+      { src: `${CDN}uyEwTNwacnfOSvif.jpg`, alt: "Pianist performing at Steinway & Sons concert" },
+    ],
+  },
+  {
+    id: "stage",
+    label: "Set & Stage",
+    images: [
+      { src: `${CDN}uyEwTNwacnfOSvif.jpg`, alt: "Pianist performing at Steinway & Sons concert" },
+    ],
+  },
+  {
+    id: "wedding",
+    label: "The Promise",
+    images: [
+      { src: `${CDN}uyEwTNwacnfOSvif.jpg`, alt: "Pianist performing at Steinway & Sons concert" },
+    ],
+  },
 ];
 
 export default function PortfolioSection() {
