@@ -60,7 +60,7 @@ export default function ContactSection() {
               </p>
             </div>
           </a>
-          
+        </div>
         {/* Location */}
         <div className="divider-warm opacity-20 max-w-xs mx-auto mb-8" />
         <p className="font-['Lato'] text-xs tracking-[0.2em] uppercase text-[#FAF7F4]/40">
