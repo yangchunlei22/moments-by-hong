@@ -39,8 +39,8 @@ export default function AboutSection() {
               <div className="grid grid-cols-3 gap-4 text-center">
                 {[
                   { number: "5+", label: "Years of Experience" },
-                  { number: "500+", label: "Sessions Captured" },
-                  { number: "5", label: "Specialties" },
+                  { number: "300+", label: "Sessions Captured" },
+                  { number: "10", label: "Specialties" },
                 ].map((stat) => (
                   <div key={stat.label}>
                     <p className="font-['Playfair_Display'] text-3xl font-medium text-[#C9A99A]">{stat.number}</p>
