@@ -41,7 +41,7 @@ const categories: Category[] = [
   },
   {
     id: "studio",
-    label: "Studio Portraits",
+    label: "The Studio",
     images: [
       { src: `https://imgur.com/hJURxKb.jpeg`, alt: "Baby in red Chinese outfit with flower crown, cream background" },
       { src: `https://imgur.com/4UP6EA9.jpeg`, alt: "Baby with red bow lying on macrame, pink background" },
@@ -98,8 +98,8 @@ const categories: Category[] = [
     ],
   },
   {
-    id: "headshot",
-    label: "Headshot & Branding",
+    id: "portrait",
+    label: "Portraits",
     images: [
       { src: `https://imgur.com/fTqyNDj.jpeg`, alt: "jasper in graduation gown, studio portrait" },
       { src: `https://imgur.com/8N5Xyk9.jpeg`, alt: "jasper in graduation gown, studio portrait" },
