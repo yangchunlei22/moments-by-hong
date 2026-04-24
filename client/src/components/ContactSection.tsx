@@ -4,9 +4,16 @@
  * Contact: email hongwang2013@gmail.com, Instagram @bbutterfly
  */
 
-import { Mail, Instagram } from "lucide-react";
+import { Mail, Instagram, MessageCircle } from "lucide-react";
 
 export default function ContactSection() {
+    const handleCopyWeChat = async () => {
+    try {
+      await navigator.clipboard.writeText("heybutterfly");
+    } catch {
+      window.prompt("Copy WeChat ID:", "heybutterfly");
+    }
+  };
   return (
     <section id="contact" className="py-20 md:py-28 bg-[#2C2420] relative overflow-hidden">
       {/* Subtle background texture */}
@@ -26,11 +33,11 @@ export default function ContactSection() {
           <em className="italic font-normal text-[#C9A99A]">beautiful together</em>
         </h2>
         <p className="font-['Lato'] text-base text-[#FAF7F4]/70 font-light leading-relaxed max-w-md mx-auto mb-12">
-          Ready to book a session or just have a question? I'd love to hear from you. Send me an email or reach out on Instagram — I typically respond within 24 hours.
+          Ready to book a session or just have a question? I'd love to hear from you. Send me an email or reach out on Instagram, or copy my WeChat ID — I typically respond within 24 hours.
         </p>
 
         {/* Contact cards */}
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-14">
+        <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center gap-6 mb-14">
           {/* Email */}
           <a
             href="mailto:hongwang2013@gmail.com"
@@ -60,6 +67,26 @@ export default function ContactSection() {
               </p>
             </div>
           </a>
+
+                    {/* WeChat */}
+          <button
+            type="button"
+            onClick={handleCopyWeChat}
+            aria-label="Copy WeChat ID heybutterfly"
+            title="Click to copy WeChat ID"
+            className="group flex items-center gap-4 bg-[#FAF7F4]/8 border border-[#FAF7F4]/15 px-8 py-5 hover:bg-[#FAF7F4]/15 transition-all duration-300 w-full sm:w-auto text-left cursor-pointer"
+          >
+            <MessageCircle size={20} className="text-[#C9A99A] flex-shrink-0" />
+            <div className="text-left">
+              <p className="font-['Lato'] text-xs tracking-widest uppercase text-[#FAF7F4]/50 mb-0.5">
+                WeChat
+              </p>
+              <p className="font-['Lato'] text-sm text-[#FAF7F4] group-hover:text-[#C9A99A] transition-colors duration-200">
+                heybutterfly
+              </p>
+            </div>
+          </button>
+        
         </div>
         {/* Location */}
         <div className="divider-warm opacity-20 max-w-xs mx-auto mb-8" />
