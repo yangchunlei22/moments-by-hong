@@ -192,7 +192,7 @@ const categories: Category[] = [
   },
   {
     id: "indoor",
-    label: "At Home",
+    label: "Indoor",
     images: [
       { src: `https://imgur.com/cCHRz8j.jpg`, alt: "8month" },
       { src: `https://imgur.com/O66HPmd.jpeg`, alt: "8" },
@@ -221,7 +221,7 @@ const categories: Category[] = [
   },
   {
     id: "outdoor",
-    label: "Into the Wild",
+    label: "Outdoor",
     images: [
       { src: `https://imgur.com/SPWNZXb.jpg`, alt: "dundun at standford campus" },
       { src: `https://imgur.com/TRDb5SF.jpeg`, alt: "d" },
