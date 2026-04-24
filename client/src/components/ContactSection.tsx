@@ -6,13 +6,29 @@
 
 import { Mail, Instagram, MessageCircle } from "lucide-react";
 
+const WECHAT_ID = "heybutterfly";
+
 export default function ContactSection() {
-    const handleCopyWeChat = async () => {
-    try {
-      await navigator.clipboard.writeText("heybutterfly");
-    } catch {
-      window.prompt("Copy WeChat ID:", "heybutterfly");
-    }
+const handleWeChatClick = () => {
+    let appOpened = false;
+
+    const onVisibilityChange = () => {
+      if (document.hidden) {
+        appOpened = true;
+      }
+    };
+
+    document.addEventListener("visibilitychange", onVisibilityChange, {
+      once: true,
+    });
+
+    navigator.clipboard.writeText(WECHAT_ID).catch(() => {});
+
+    window.setTimeout(() => {
+      if (!appOpened) {
+        window.prompt("Open WeChat and search this ID:", WECHAT_ID);
+      }
+    }, 800);
   };
   return (
     <section id="contact" className="py-20 md:py-28 bg-[#2C2420] relative overflow-hidden">
@@ -68,24 +84,24 @@ export default function ContactSection() {
             </div>
           </a>
 
-                    {/* WeChat */}
-          <button
-            type="button"
-            onClick={handleCopyWeChat}
-            aria-label="Copy WeChat ID heybutterfly"
-            title="Click to copy WeChat ID"
-            className="group flex items-center gap-4 bg-[#FAF7F4]/8 border border-[#FAF7F4]/15 px-8 py-5 hover:bg-[#FAF7F4]/15 transition-all duration-300 w-full sm:w-auto text-left cursor-pointer"
-          >
-            <MessageCircle size={20} className="text-[#C9A99A] flex-shrink-0" />
-            <div className="text-left">
-              <p className="font-['Lato'] text-xs tracking-widest uppercase text-[#FAF7F4]/50 mb-0.5">
-                WeChat
-              </p>
-              <p className="font-['Lato'] text-sm text-[#FAF7F4] group-hover:text-[#C9A99A] transition-colors duration-200">
-                heybutterfly
-              </p>
-            </div>
-          </button>
+ {/* WeChat */}
+        <a
+          href="weixin://"
+          onClick={handleWeChatClick}
+          aria-label="Open WeChat"
+          title="Open WeChat"
+          className="group flex items-center gap-4 bg-[#FAF7F4]/8 border border-[#FAF7F4]/15 px-8 py-5 hover:bg-[#FAF7F4]/15 transition-all duration-300 w-full sm:w-auto text-left"
+        >
+          <MessageCircle size={20} className="text-[#C9A99A] flex-shrink-0" />
+          <div className="text-left">
+            <p className="font-['Lato'] text-xs tracking-widest uppercase text-[#FAF7F4]/50 mb-0.5">
+              WeChat
+            </p>
+            <p className="font-['Lato'] text-sm text-[#FAF7F4] group-hover:text-[#C9A99A] transition-colors duration-200">
+              {WECHAT_ID}
+            </p>
+          </div>
+        </a>
         
         </div>
         {/* Location */}
