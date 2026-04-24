@@ -38,8 +38,8 @@ export default function AboutSection() {
             <div className="mt-8 pt-8 border-t border-[#D9CFC8]">
               <div className="grid grid-cols-3 gap-4 text-center">
                 {[
-                  { number: "5+", label: "Years of Experience" },
-                  { number: "300+", label: "Sessions Captured" },
+                  { number: "3+", label: "Years of Experience" },
+                  { number: "200+", label: "Sessions Captured" },
                   { number: "10", label: "Specialties" },
                 ].map((stat) => (
                   <div key={stat.label}>
