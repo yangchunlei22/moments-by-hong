@@ -31,6 +31,18 @@ const services = [
   },
   {
     icon: "✦",
+    title: "Wedding",
+    description:
+      "Heartfelt coverage for intimate weddings and celebrations, blending softly guided portraits with candid storytelling to preserve the beauty, emotion, and quiet in-between moments of your day.",
+    includes: [
+      "4–8 hour coverage",
+      "Getting ready, ceremony & portraits",
+      "Thoughtful timeline guidance",
+      "Online gallery delivery",
+    ],
+  },
+  {
+    icon: "✦",
     title: "Events",
     description: "Documentary coverage of your special occasions — birthday parties, engagements, weddings, and family celebrations.",
     includes: ["2–8 hour coverage", "Candid & posed moments", "Full event timeline", "Online gallery delivery"],
