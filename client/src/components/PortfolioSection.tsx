@@ -292,7 +292,7 @@ const categories: Category[] = [
   },
   {
     id: "wedding",
-    label: "Ever After",
+    label: "Wedding Stories",
     images: [
       { src: `https://imgur.com/C2w25I5.jpeg`, alt: "prewedding at sf cityhall" },
       { src: `https://imgur.com/5XaeGGs.jpeg`, alt: "p" },
@@ -325,6 +325,13 @@ const categories: Category[] = [
       { src: `https://imgur.com/N2XuWYy.jpeg`, alt: "y" },
       { src: `https://imgur.com/53GIaPs.jpeg`, alt: "y" },
       { src: `https://imgur.com/EsdzkM8.jpeg`, alt: "y" },
+    ],
+  },
+  {
+    id: "event",
+    label: "The Occasion",
+    images: [
+      { src: `https://imgur.com/C2w25I5.jpeg`, alt: "prewedding at sf cityhall" },
     ],
   },
 ];
