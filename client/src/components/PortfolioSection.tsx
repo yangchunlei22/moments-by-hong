@@ -298,7 +298,7 @@ const categories: Category[] = [
     ],
   },
   {
-    id: "wedding",
+    id: "engagement",
     label: "The Promise",
     images: [
       { src: `https://imgur.com/qThpbxb.jpeg`, alt: "dongdong aunt" },
