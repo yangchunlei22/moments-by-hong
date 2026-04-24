@@ -49,7 +49,7 @@ const handleWeChatClick = () => {
           <em className="italic font-normal text-[#C9A99A]">beautiful together</em>
         </h2>
         <p className="font-['Lato'] text-base text-[#FAF7F4]/70 font-light leading-relaxed max-w-md mx-auto mb-12">
-          Ready to book a session or just have a question? I'd love to hear from you. Send me an email or reach out on Instagram, or copy my WeChat ID — I typically respond within 24 hours.
+          Ready to book a session or just have a question? I'd love to hear from you. Send me an email or reach out on Instagram or WeChat — I typically respond within 24 hours.
         </p>
 
         {/* Contact cards */}
