@@ -356,22 +356,22 @@ export default function PortfolioSection() {
           </h2>
         </div>
 
-        {/* Category tabs */}
-        <div className="flex flex-wrap gap-2 md:gap-4 mb-10 md:mb-12 border-b border-[#E8DDD4] pb-4">
-          {categories.map((cat) => (
-            <button
-              key={cat.id}
-              onClick={() => setActiveCategory(cat.id)}
-              className={`font-['Lato'] text-xs tracking-[0.15em] uppercase pb-1 transition-all duration-200 ${
-                activeCategory === cat.id
-                  ? "text-[#2C2420] border-b-2 border-[#C9A99A]"
-                  : "text-[#A89080] hover:text-[#2C2420]"
-              }`}
-            >
-              {cat.label}
-            </button>
-          ))}
-        </div>
+{/* Category tabs */}
+<div className="flex flex-col items-start gap-3 md:flex-row md:flex-nowrap md:items-center md:gap-4 md:overflow-x-auto mb-10 md:mb-12 border-b border-[#E8DDD4] pb-4">
+  {categories.map((cat) => (
+    <button
+      key={cat.id}
+      onClick={() => setActiveCategory(cat.id)}
+      className={`text-left whitespace-nowrap py-1 font-['Lato'] text-xs tracking-[0.15em] uppercase transition-all duration-200 ${
+        activeCategory === cat.id
+          ? "text-[#2C2420] border-b-2 border-[#C9A99A]"
+          : "text-[#A89080] hover:text-[#2C2420]"
+      }`}
+    >
+      {cat.label}
+    </button>
+  ))}
+</div>
 
         {/* Masonry-style grid */}
         <div className="columns-2 md:columns-3 gap-3 md:gap-4 space-y-3 md:space-y-4">
