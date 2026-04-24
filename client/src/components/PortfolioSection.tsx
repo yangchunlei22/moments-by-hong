@@ -262,7 +262,7 @@ const categories: Category[] = [
   },
   {
     id: "engagement",
-    label: "The Promise",
+    label: "Engagements",
     images: [
       { src: `https://imgur.com/qThpbxb.jpeg`, alt: "dongdong aunt" },
       { src: `https://imgur.com/uRzF1ow.jpeg`, alt: "d" },
@@ -329,7 +329,7 @@ const categories: Category[] = [
   },
   {
     id: "event",
-    label: "The Occasion",
+    label: "Live Events",
     images: [
       { src: `https://imgur.com/C2w25I5.jpeg`, alt: "prewedding at sf cityhall" },
     ],
