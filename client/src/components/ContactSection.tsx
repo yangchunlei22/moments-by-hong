@@ -60,6 +60,19 @@ export default function ContactSection() {
               </p>
             </div>
           </a>
+
+            {/* WeChat - NEW ADDITION */}
+          <div
+            className="group flex items-center gap-4 bg-[#FAF7F4]/8 border border-[#FAF7F4]/15 px-8 py-5 hover:bg-[#FAF7F4]/15 transition-all duration-300 w-full sm:w-auto cursor-default"
+          >
+            <MessageCircle size={20} className="text-[#C9A99A] flex-shrink-0" />
+            <div className="text-left">
+              <p className="font-['Lato'] text-xs tracking-widest uppercase text-[#FAF7F4]/50 mb-0.5">WeChat</p>
+              <p className="font-['Lato'] text-sm text-[#FAF7F4] transition-colors duration-200">
+                heybutterfly
+              </p>
+            </div>
+          </div>
         </div>
 
         {/* Location */}
